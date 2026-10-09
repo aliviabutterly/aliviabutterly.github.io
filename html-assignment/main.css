@@ -1,0 +1,14 @@
+/* 1. Inheritance: targe body for font family and 18px font size */
+body { 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+/* 2. Select Multiple elements: header and footer with the same background color */
+header, footer {
+    background-color: #f4f4f4;
+    padding: 1rem;
+}
+
