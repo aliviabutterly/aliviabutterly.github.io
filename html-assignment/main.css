@@ -27,3 +27,16 @@ header, footer {
     list-style-type: square;
 } 
 
+/* 6. nth-child selector: background on odd list items in hobby list */
+.hobby-list li:nth-child(odd) {
+    background-color: #e9ecef;
+}
+
+/* 7. Styling the Navigation */
+/* Remove bullets from nav ul */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+} 
